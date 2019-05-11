@@ -6,7 +6,7 @@ import numpy as np
 
 class GetData():
     def read_acq_files(self, fname):
-        acq_header_file = pd.read_csv('some-acquisition/header_aquisition_file.txt', sep=",")
+        acq_header_file = pd.read_csv('../Performance_All/some-acquisition/header_aquisition_file.txt', sep=",")
         # print("headers file", acq_header_file.head())
 
         columns = acq_header_file["Field Name"]
@@ -18,7 +18,7 @@ class GetData():
                           'BORROWER CREDIT SCORE AT ORIGINATION', 'CO-BORROWER CREDIT SCORE AT ORIGINATION']
         # usecols=filter_columns
         # nrows=1000
-        df = pd.read_csv(fname, sep="|", header=None, names=columns, infer_datetime_format=True,)
+        df = pd.read_csv(fname, sep="|", header=None, names=columns, infer_datetime_format=True,nrows=1000)
         print(df.shape)
         print(df.columns)
         #print(df['ORIGINAL INTEREST RATE'].max())  #developer check
@@ -74,9 +74,9 @@ class DataTransform():
 
 
     def nan_fix(self, df, df_field, df_derived, enrich):
-        df[df_field].to_csv(('some-acquisition/pre-' + df_derived + '.csv'), sep=',')
+        df[df_field].to_csv(('pre-' + df_derived + '.csv'), sep=',')
         df[df_field].fillna(value=enrich, inplace=True)  #edit the data set and overwrite
-        df[df_field].to_csv(('some-acquisition/post-'+df_derived+'.csv'), sep=',')
+        df[df_field].to_csv(('post-'+df_derived+'.csv'), sep=',')
         return df  # return the dataframe after update
 
 
@@ -145,7 +145,7 @@ def main():
     #get data WORKS
     y = GetData()
     z = CallTransform()
-    in_file = 'some-acquisition/Acquisition_2017Q2.txt'
+    in_file = '../Performance_All/some-acquisition/Acquisition_2017Q2.txt'
     a = GetData.read_acq_files(y, in_file)
     print(a.head())
 
@@ -208,7 +208,7 @@ def main():
 
 
     #write output file
-    out_file = 'some-acquisition/Acquisition_Out.csv'
+    out_file = 'Acquisition_Out.csv'
     i = GetData.write_results(y, h, out_file)
 
 
