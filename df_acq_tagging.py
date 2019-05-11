@@ -18,7 +18,7 @@ class GetData():
                           'BORROWER CREDIT SCORE AT ORIGINATION', 'CO-BORROWER CREDIT SCORE AT ORIGINATION']
         # usecols=filter_columns
         # nrows=1000
-        df = pd.read_csv(fname, sep="|", header=None, names=columns, infer_datetime_format=True,nrows=1000)
+        df = pd.read_csv(fname, sep="|", header=None, names=columns, infer_datetime_format=True,nrows=100000,)
         print(df.shape)
         print(df.columns)
         #print(df['ORIGINAL INTEREST RATE'].max())  #developer check
