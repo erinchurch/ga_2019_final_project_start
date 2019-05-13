@@ -147,6 +147,8 @@ def main():
     z = CallTransform()
     in_file = '../Performance_All/some-acquisition/Acquisition_2017Q2.txt'
     a = GetData.read_acq_files(y, in_file)
+    source = in_file.replace('../Performance_All/some-acquisition/','')
+    a['SOURCE'] = source
     print(a.head())
 
     #loan count - WORKS

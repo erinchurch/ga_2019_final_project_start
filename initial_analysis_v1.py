@@ -9,7 +9,7 @@ import pandas as pd
 
 def read_files(fname):
 
-   df_columns = pd.read_csv('performance_file_headers.txt', sep=',')
+   df_columns = pd.read_csv('some-performance/performance_file_headers.txt', sep=',')
    columns = df_columns['Field Name']
    #print(columns)
    #print(type(columns))
@@ -23,9 +23,10 @@ def read_files(fname):
 
 
 def main():
-    a = 'Performance_2018Q1.txt'
+    a = '../Performance_All/some-performance/Performance_2017Q2.txt'
     b = read_files(a)
     print(b.head())
+    print(b.columns)
     # c = 'Performance_2017Q4.txt'
     # d = read_files(c)
     # print(d.head())
