@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12fd6a1f-2ee9-445a-bb03-33c136c7a288" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/get_loan_population.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/merge_perf_acq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build_compound_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/df_merge_tagging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/merge_perf_acq_comp_files.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/df_acq_tagging.py" beforeDir="false" afterPath="$PROJECT_DIR$/df_acq_tagging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initial_analysis_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/initial_analysis_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Acquisition_Out.csv" beforeDir="false" afterPath="$PROJECT_DIR$/draft_tagging_data/Acquisition_Out.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_loan_population.py" beforeDir="false" afterPath="$PROJECT_DIR$/drafting-dev/get_loan_population.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initial_analysis_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/drafting-dev/initial_analysis_v1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge_perf_acq.py" beforeDir="false" afterPath="$PROJECT_DIR$/merge_perf_acq.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,44 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_loan_population.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/df_merge_tagging.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="107" column="6" lean-forward="true" selection-end-line="107" selection-end-column="6" />
+            <state relative-caret-position="-882">
+              <caret line="209" selection-start-line="209" selection-end-line="209" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#669#1030#0" />
-                <element signature="e#1160#1570#0" />
-                <element signature="e#1497#1714#0" />
-                <element signature="e#1729#1803#0" />
+                <element signature="e#125#1372#0" />
+                <element signature="e#188#1957#0" />
+                <element signature="e#1987#3756#0" />
+                <element signature="e#166#1282#0" />
+                <element signature="e#1403#4851#0" />
+                <element signature="e#2305#3332#0" />
+                <element signature="e#3823#4094#0" />
+                <element signature="e#4882#6310#0" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/merge_perf_acq.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-              <folding>
-                <element signature="e#592#1052#0" />
-                <element signature="e#2049#2133#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample_perf_data.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample_perf_acq_data.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1199" />
           </provider>
         </entry>
       </file>
@@ -82,14 +64,18 @@
         <option value="$PROJECT_DIR$/other_data_set.csv" />
         <option value="$PROJECT_DIR$/get_loan_population.py" />
         <option value="$PROJECT_DIR$/merge_perf_acq.py" />
+        <option value="$PROJECT_DIR$/drafting-dev/build_compound_files.py" />
+        <option value="$PROJECT_DIR$/build_compound_files.py" />
+        <option value="$PROJECT_DIR$/merge_perf_acq_comp_files.py" />
+        <option value="$PROJECT_DIR$/df_merge_tagging.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="42" />
-    <option name="y" value="23" />
+    <option name="x" value="57" />
+    <option name="y" value="25" />
     <option name="width" value="1184" />
-    <option name="height" value="777" />
+    <option name="height" value="707" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -121,9 +107,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/some-acqusition" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/draft_tagging_data" />
+      <recent name="$PROJECT_DIR$/draft_merge_data" />
       <recent name="$PROJECT_DIR$/drafting-dev" />
-      <recent name="$PROJECT_DIR$/some-performance" />
+      <recent name="$PROJECT_DIR$/some-acqusition" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -138,8 +126,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_loan_population">
-    <configuration name="df_acq_tagging" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.df_merge_tagging">
+    <configuration name="build_compound_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ga_2019_final_project_start" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drafting-dev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/build_compound_files.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="df_merge_tagging" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ga_2019_final_project_start" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,7 +162,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/df_acq_tagging.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/df_merge_tagging.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,7 +184,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_loan_population.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drafting-dev/get_loan_population.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,7 +206,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/initial_analysis_v1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drafting-dev/initial_analysis_v1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="merge_perf_acq_comp_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ga_2019_final_project_start" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/merge_perf_acq_comp_files.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,9 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.df_merge_tagging" />
+        <item itemvalue="Python.merge_perf_acq_comp_files" />
+        <item itemvalue="Python.build_compound_files" />
         <item itemvalue="Python.get_loan_population" />
         <item itemvalue="Python.initial_analysis_v1" />
-        <item itemvalue="Python.df_acq_tagging" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +258,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557613488666</updated>
       <workItem from="1557613490009" duration="1501000" />
-      <workItem from="1557678966152" duration="17279000" />
+      <workItem from="1557678966152" duration="23519000" />
     </task>
     <task id="LOCAL-00001" summary="organizing files to match that of desktop original">
       <created>1557613735344</created>
@@ -275,22 +309,28 @@
       <option name="project" value="LOCAL" />
       <updated>1557614999767</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="development activities all day - mostly unsucessful exploration of merging, can only merge acq onto perf, not data from perf onto acq, just using pandas">
+      <created>1557719188909</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557719188909</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18780000" />
+    <option name="totallyTimeSpent" value="25020000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="23" width="1184" height="777" extended-state="0" />
-    <editor active="true" />
+    <frame x="57" y="25" width="1184" height="707" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25438598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329429" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23327896" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,52 +359,37 @@
     <MESSAGE value="updated to run 100k records" />
     <MESSAGE value="updating for continued development and adaptive to git repsoitory development" />
     <MESSAGE value="additional clean up of directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="additional clean up of directories" />
+    <MESSAGE value="development activities all day - mostly unsucessful exploration of merging, can only merge acq onto perf, not data from perf onto acq, just using pandas" />
+    <option name="LAST_COMMIT_MESSAGE" value="development activities all day - mostly unsucessful exploration of merging, can only merge acq onto perf, not data from perf onto acq, just using pandas" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ga_2019_final_project_start$initial_analysis_v1.coverage" NAME="initial_analysis_v1 Coverage Results" MODIFIED="1557680096994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ga_2019_final_project_start$df_acq_tagging.coverage" NAME="df_acq_tagging Coverage Results" MODIFIED="1557614558158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ga_2019_final_project_start$get_loan_population.coverage" NAME="get_loan_population Coverage Results" MODIFIED="1557718735169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$merge_perf_acq_comp_files.coverage" NAME="merge_perf_acq_comp_files Coverage Results" MODIFIED="1557724419634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$build_compound_files.coverage" NAME="build_compound_files Coverage Results" MODIFIED="1557723670304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drafting-dev" />
+    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$df_merge_tagging.coverage" NAME="df_merge_tagging Coverage Results" MODIFIED="1557724670015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/some-acqusition/Acqusition_2017Q2.txt" />
     <entry file="file://$PROJECT_DIR$/../Performance_All/some-acquisition/Acquisition_2017Q2.txt">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/initial_analysis_v1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df_acq_tagging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="78" column="65" lean-forward="true" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#166#1282#0" />
-            <element signature="e#2305#3332#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pre-PERF_FLAG.csv">
+    <entry file="file://$PROJECT_DIR$/draft_merge_data/pre-PERF_FLAG.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="52" column="15" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post-PERF_FLAG.csv">
+    <entry file="file://$PROJECT_DIR$/draft_merge_data/post-PERF_FLAG.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-192">
           <caret line="102" column="9" lean-forward="true" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/other_data_set.csv">
+    <entry file="file://$PROJECT_DIR$/draft_merge_data/other_data_set.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-117">
           <caret line="101" selection-start-line="101" selection-end-line="101" />
@@ -374,21 +399,21 @@
     <entry file="file://$PROJECT_DIR$/some-performance/performance_file_headers.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample_acq_data.csv">
+    <entry file="file://$PROJECT_DIR$/draft_merge_data/sample_acq_data.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample_perf_acq_data.csv">
+    <entry file="file://$PROJECT_DIR$/draft_merge_data/sample_perf_acq_data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1199" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample_perf_data.csv">
+    <entry file="file://$PROJECT_DIR$/draft_merge_data/sample_perf_data.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_loan_population.py">
+    <entry file="file://$PROJECT_DIR$/drafting-dev/get_loan_population.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="107" column="6" lean-forward="true" selection-end-line="107" selection-end-column="6" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <element signature="e#669#1030#0" />
@@ -399,13 +424,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/drafting-dev/initial_analysis_v1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft_tagging_data/Acquisition_Out.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df_acq_tagging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="221" lean-forward="true" selection-end-line="221" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#166#1282#0" />
+            <element signature="e#2305#3332#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft_tagging_data/merge_data_tag_out.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/merge_perf_acq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        <state relative-caret-position="990">
+          <caret line="66" lean-forward="true" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merge_perf_acq_comp_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
-            <element signature="e#592#1052#0" />
-            <element signature="e#2049#2133#0" />
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_compound_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-911">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df_merge_tagging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-882">
+          <caret line="209" selection-start-line="209" selection-end-line="209" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#125#1372#0" />
+            <element signature="e#188#1957#0" />
+            <element signature="e#1987#3756#0" />
+            <element signature="e#166#1282#0" />
+            <element signature="e#1403#4851#0" />
+            <element signature="e#2305#3332#0" />
+            <element signature="e#3823#4094#0" />
+            <element signature="e#4882#6310#0" />
           </folding>
         </state>
       </provider>

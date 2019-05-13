@@ -32,7 +32,6 @@ class GetData():
 
         return df
 
-
     def merge(self, df1, df2):
         df_new = pd.merge(df1, df2, on='LOAN IDENTIFIER', validate='m:1' )
         return df_new
@@ -53,14 +52,14 @@ def main():
     b['SOURCE_PERF'] = source_perf
     print(b.shape)
     print(b.columns)
-    a.to_csv('sample_acq_data.csv')
-    b.to_csv('sample_perf_data.csv')
+    a.to_csv('draft_merge_data/sample_acq_data.csv')
+    b.to_csv('draft_merge_data/sample_perf_data.csv')
     print(b.head())
     #merge data
     c = GetData.merge(y, b, a)
     print(c.shape)
     print(c.columns)
-    c.to_csv('sample_perf_acq_data.csv')
+    c.to_csv('draft_merge_data/sample_perf_acq_data.csv')
 
 
 if __name__ =='__main__':
