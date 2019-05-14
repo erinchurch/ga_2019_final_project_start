@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12fd6a1f-2ee9-445a-bb03-33c136c7a288" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/drafting-dev/python_to_pdf_drafting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generalized_groupby.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drafting-dev/data_visualization_from_hmwk.py" beforeDir="false" afterPath="$PROJECT_DIR$/drafting-dev/data_visualization_from_hmwk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv1.py" beforeDir="false" afterPath="$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,33 +16,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drafting-dev/python_to_pdf_drafting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="114" selection-start-line="9" selection-start-column="114" selection-end-line="9" selection-end-column="114" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv1.py">
+        <entry file="file://$PROJECT_DIR$/generalized_groupby.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
+            <state relative-caret-position="84">
+              <caret line="380" column="20" selection-start-line="380" selection-start-column="20" selection-end-line="380" selection-end-column="20" />
               <folding>
-                <element signature="e#203#665#1" />
-                <element signature="e#203#598#1" />
-                <element signature="e#1115#1318#0" />
-                <element signature="e#1460#1485#1" />
-                <element signature="e#1400#3721#0" />
-                <element signature="e#2328#2374#0" />
-                <element signature="e#4481#4600#1" />
-                <element signature="e#5233#5376#1" />
-                <element signature="e#6348#7215#0" />
-                <element signature="e#6324#6438#1" />
-                <element signature="e#7361#7475#1" />
-                <element signature="e#7487#7580#0" />
+                <element signature="e#151#613#1" />
+                <element signature="e#615#1010#1" />
+                <element signature="e#1075#1355#0" />
+                <element signature="e#1425#4339#0" />
+                <element signature="e#1425#1918#1" />
+                <element signature="e#1943#4067#0" />
+                <element signature="e#4392#4508#1" />
+                <element signature="e#4693#5752#0" />
+                <element signature="e#5811#6756#0" />
+                <element signature="e#6829#7220#0" />
+                <element signature="e#6827#8004#0" />
+                <element signature="e#7299#7473#1" />
+                <element signature="e#8525#9702#0" />
+                <element signature="e#8525#9339#1" />
+                <element signature="e#8062#8995#0" />
+                <element signature="e#8062#8581#1" />
+                <element signature="e#9061#9610#0" />
+                <element signature="e#9053#9986#0" />
+                <element signature="e#9053#9572#1" />
+                <element signature="e#10584#10981#0" />
+                <element signature="e#11036#11565#0" />
+                <element signature="e#11041#11155#1" />
+                <element signature="e#11630#12159#0" />
+                <element signature="e#9624#9789#0" />
               </folding>
             </state>
           </provider>
@@ -76,9 +81,11 @@
         <option value="$PROJECT_DIR$/merge_perf_acq_comp_files.py" />
         <option value="$PROJECT_DIR$/df_merge_tagging.py" />
         <option value="$PROJECT_DIR$/drafting-dev/df_vintage_group.py" />
-        <option value="$PROJECT_DIR$/drafting-dev/data_visualization_from_hmwk.py" />
         <option value="$PROJECT_DIR$/drafting-dev/python_to_pdf_drafting.py" />
         <option value="$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv1.py" />
+        <option value="$PROJECT_DIR$/drafting-dev/data_visualization_from_hmwk.py" />
+        <option value="$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv2.py" />
+        <option value="$PROJECT_DIR$/generalized_groupby.py" />
       </list>
     </option>
   </component>
@@ -104,7 +111,7 @@
             <path>
               <item name="ga_2019_final_project_start" type="b2602c69:ProjectViewProjectNode" />
               <item name="ga_2019_final_project_start" type="462c0819:PsiDirectoryNode" />
-              <item name="drafting-dev" type="462c0819:PsiDirectoryNode" />
+              <item name="draft_groupby_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -142,29 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.generalized_groupby_draftv1">
-    <configuration name="build_compound_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ga_2019_final_project_start" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drafting-dev" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/build_compound_files.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.generalized_groupby">
     <configuration name="df_merge_tagging" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ga_2019_final_project_start" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,6 +164,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/df_merge_tagging.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generalized_groupby" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ga_2019_final_project_start" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generalized_groupby.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_loan_population" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="generalized_groupby_draftv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ga_2019_final_project_start" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -217,12 +224,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drafting-dev" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drafting-dev/get_loan_population.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generalized_groupby" />
+        <item itemvalue="Python.generalized_groupby_draftv2" />
         <item itemvalue="Python.generalized_groupby_draftv1" />
         <item itemvalue="Python.df_merge_tagging" />
         <item itemvalue="Python.merge_perf_acq_comp_files" />
-        <item itemvalue="Python.build_compound_files" />
-        <item itemvalue="Python.get_loan_population" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +282,7 @@
       <updated>1557613488666</updated>
       <workItem from="1557613490009" duration="1501000" />
       <workItem from="1557678966152" duration="24693000" />
-      <workItem from="1557761611012" duration="12822000" />
+      <workItem from="1557761611012" duration="32709000" />
     </task>
     <task id="LOCAL-00001" summary="organizing files to match that of desktop original">
       <created>1557613735344</created>
@@ -354,32 +361,48 @@
       <option name="project" value="LOCAL" />
       <updated>1557726105163</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="further work on the generalized groupby">
+      <created>1557775892040</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557775892040</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39016000" />
+    <option name="totallyTimeSpent" value="58903000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1184" height="707" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25877193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32952693" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23327896" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991228" visible="true" weight="0.23327896" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32952693" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008772" side_tool="true" weight="0.23327896" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32952693" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -401,11 +424,14 @@
     <MESSAGE value="development activities all day - mostly unsucessful exploration of merging, can only merge acq onto perf, not data from perf onto acq, just using pandas" />
     <MESSAGE value="creating merged data sets with 400k records, tagged them as well, next steps are for visualization" />
     <MESSAGE value="copying over more prior drafting work from homework - needs to be revised new merged data sets" />
-    <option name="LAST_COMMIT_MESSAGE" value="copying over more prior drafting work from homework - needs to be revised new merged data sets" />
+    <MESSAGE value="further work on the generalized groupby" />
+    <option name="LAST_COMMIT_MESSAGE" value="further work on the generalized groupby" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ga_2019_final_project_start$initial_analysis_v1.coverage" NAME="initial_analysis_v1 Coverage Results" MODIFIED="1557680096994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$generalized_groupby_draftv1.coverage" NAME="generalized_groupby_draftv1 Coverage Results" MODIFIED="1557775743639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drafting-dev" />
+    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$generalized_groupby_draftv1.coverage" NAME="generalized_groupby_draftv1 Coverage Results" MODIFIED="1557780284891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drafting-dev" />
+    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$generalized_groupby.coverage" NAME="generalized_groupby Coverage Results" MODIFIED="1557796419199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$generalized_groupby_draftv2.coverage" NAME="generalized_groupby_draftv2 Coverage Results" MODIFIED="1557783343436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drafting-dev" />
     <SUITE FILE_PATH="coverage/ga_2019_final_project_start$df_acq_tagging.coverage" NAME="df_acq_tagging Coverage Results" MODIFIED="1557614558158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ga_2019_final_project_start$get_loan_population.coverage" NAME="get_loan_population Coverage Results" MODIFIED="1557718735169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ga_2019_final_project_start$merge_perf_acq_comp_files.coverage" NAME="merge_perf_acq_comp_files Coverage Results" MODIFIED="1557724419634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -491,66 +517,9 @@
     <entry file="file://$PROJECT_DIR$/draft_tagging_data/merge_data_tag_out.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/merge_perf_acq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" lean-forward="true" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merge_perf_acq_comp_files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build_compound_files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-911">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drafting-dev/data_visualization_from_hmwk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df_merge_tagging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="281" column="58" lean-forward="true" selection-start-line="281" selection-start-column="15" selection-end-line="281" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#184#2313#0" />
-            <element signature="e#2340#4493#0" />
-            <element signature="e#5944#9430#0" />
-            <element signature="e#9524#9844#0" />
-            <element signature="e#9927#10166#0" />
-            <element signature="e#10282#10889#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/draft_groupby_data/dev_groupby_sample.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14687" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drafting-dev/python_to_pdf_drafting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="114" selection-start-line="9" selection-start-column="114" selection-end-line="9" selection-end-column="114" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drafting-dev/df_vintage_group.py">
@@ -575,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
+        <state relative-caret-position="63">
+          <caret line="351" column="32" selection-end-line="369" />
           <folding>
             <element signature="e#203#665#1" />
             <element signature="e#203#598#1" />
@@ -585,11 +554,139 @@
             <element signature="e#1400#3721#0" />
             <element signature="e#2328#2374#0" />
             <element signature="e#4481#4600#1" />
+            <element signature="e#4744#4971#0" />
+            <element signature="e#4735#5506#1" />
+            <element signature="e#5231#6285#0" />
             <element signature="e#5233#5376#1" />
             <element signature="e#6348#7215#0" />
             <element signature="e#6324#6438#1" />
+            <element signature="e#7370#7831#0" />
             <element signature="e#7361#7475#1" />
             <element signature="e#7487#7580#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merge_perf_acq_comp_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merge_perf_acq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="692">
+          <caret line="256" column="24" selection-start-line="256" selection-start-column="24" selection-end-line="256" selection-end-column="24" />
+          <folding>
+            <element signature="e#203#665#1" />
+            <element signature="e#667#1062#1" />
+            <element signature="e#1127#1407#0" />
+            <element signature="e#1478#4392#0" />
+            <element signature="e#1478#1971#1" />
+            <element signature="e#1996#4120#0" />
+            <element signature="e#4446#4616#0" />
+            <element signature="e#4446#4562#1" />
+            <element signature="e#4748#5807#0" />
+            <element signature="e#4748#5529#1" />
+            <element signature="e#5867#6821#0" />
+            <element signature="e#6706#7520#1" />
+            <element signature="e#7941#8874#0" />
+            <element signature="e#7941#8460#1" />
+            <element signature="e#8934#9463#0" />
+            <element signature="e#8934#9036#1" />
+            <element signature="e#9504#9669#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_compound_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="52" column="57" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df_merge_tagging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="130" column="28" lean-forward="true" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#184#2313#0" />
+            <element signature="e#2340#4493#0" />
+            <element signature="e#6846#7873#0" />
+            <element signature="e#8364#8673#0" />
+            <element signature="e#8736#8928#0" />
+            <element signature="e#8994#9113#0" />
+            <element signature="e#9160#9269#0" />
+            <element signature="e#9318#9430#0" />
+            <element signature="e#9524#9844#0" />
+            <element signature="e#9927#10166#0" />
+            <element signature="e#10282#10889#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drafting-dev/data_visualization_from_hmwk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#56#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drafting-dev/python_to_pdf_drafting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="114" selection-start-line="9" selection-start-column="114" selection-end-line="9" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generalized_groupby.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="380" column="20" selection-start-line="380" selection-start-column="20" selection-end-line="380" selection-end-column="20" />
+          <folding>
+            <element signature="e#151#613#1" />
+            <element signature="e#615#1010#1" />
+            <element signature="e#1075#1355#0" />
+            <element signature="e#1425#4339#0" />
+            <element signature="e#1425#1918#1" />
+            <element signature="e#1943#4067#0" />
+            <element signature="e#4392#4508#1" />
+            <element signature="e#4693#5752#0" />
+            <element signature="e#5811#6756#0" />
+            <element signature="e#6829#7220#0" />
+            <element signature="e#6827#8004#0" />
+            <element signature="e#7299#7473#1" />
+            <element signature="e#8525#9702#0" />
+            <element signature="e#8525#9339#1" />
+            <element signature="e#8062#8995#0" />
+            <element signature="e#8062#8581#1" />
+            <element signature="e#9061#9610#0" />
+            <element signature="e#9053#9986#0" />
+            <element signature="e#9053#9572#1" />
+            <element signature="e#10584#10981#0" />
+            <element signature="e#11036#11565#0" />
+            <element signature="e#11041#11155#1" />
+            <element signature="e#11630#12159#0" />
+            <element signature="e#9624#9789#0" />
           </folding>
         </state>
       </provider>

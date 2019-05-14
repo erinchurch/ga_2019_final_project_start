@@ -7,7 +7,7 @@ import datetime as dt
 #import numpy as np #not using
 #import matplotlib #not using
 import matplotlib.pyplot as plt
-from matplotlib.backends.backend_pdf import PdfPages
+
 
 
 #plotting works, writing to pdf does not yet work
