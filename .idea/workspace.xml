@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12fd6a1f-2ee9-445a-bb03-33c136c7a288" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generalized_groupby.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drafting-dev/data_visualization_from_hmwk.py" beforeDir="false" afterPath="$PROJECT_DIR$/drafting-dev/data_visualization_from_hmwk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv1.py" beforeDir="false" afterPath="$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_compound_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/build_compound_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/df_merge_tagging.py" beforeDir="false" afterPath="$PROJECT_DIR$/df_merge_tagging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft_tagging_data/Acquisition_Out.csv" beforeDir="false" afterPath="$PROJECT_DIR$/draft_tagging_data/2016-2017-file-results/Acquisition_Out.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generalized_groupby.py" beforeDir="false" afterPath="$PROJECT_DIR$/generalized_groupby.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge_perf_acq_comp_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/merge_perf_acq_comp_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some-acqusition/LTV_BUCKET.csv" beforeDir="false" afterPath="$PROJECT_DIR$/some-acqusition/2016-2017-file-data/LTV_BUCKET.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some-acqusition/post-FICO_BUCKET.csv" beforeDir="false" afterPath="$PROJECT_DIR$/some-acqusition/2016-2017-file-data/post-FICO_BUCKET.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some-acqusition/post-INT_RT_BUCKET.csv" beforeDir="false" afterPath="$PROJECT_DIR$/some-acqusition/2016-2017-file-data/post-INT_RT_BUCKET.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some-acqusition/post-LTV_BUCKET.csv" beforeDir="false" afterPath="$PROJECT_DIR$/some-acqusition/2016-2017-file-data/post-LTV_BUCKET.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some-acqusition/post-TERM_BUCKET.csv" beforeDir="false" afterPath="$PROJECT_DIR$/some-acqusition/2016-2017-file-data/post-TERM_BUCKET.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some-acqusition/post-UPB_BUCKET.csv" beforeDir="false" afterPath="$PROJECT_DIR$/some-acqusition/2016-2017-file-data/post-UPB_BUCKET.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some-acqusition/pre-FICO_BUCKET.csv" beforeDir="false" afterPath="$PROJECT_DIR$/some-acqusition/2016-2017-file-data/pre-FICO_BUCKET.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some-acqusition/pre-INT_RT_BUCKET.csv" beforeDir="false" afterPath="$PROJECT_DIR$/some-acqusition/2016-2017-file-data/pre-INT_RT_BUCKET.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some-acqusition/pre-LTV_BUCKET.csv" beforeDir="false" afterPath="$PROJECT_DIR$/some-acqusition/2016-2017-file-data/pre-LTV_BUCKET.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some-acqusition/pre-TERM_BUCKET.csv" beforeDir="false" afterPath="$PROJECT_DIR$/some-acqusition/2016-2017-file-data/pre-TERM_BUCKET.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some-acqusition/pre-UPB_BUCKET.csv" beforeDir="false" afterPath="$PROJECT_DIR$/some-acqusition/2016-2017-file-data/pre-UPB_BUCKET.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/some-acqusition/validate_FICO.csv" beforeDir="false" afterPath="$PROJECT_DIR$/some-acqusition/2016-2017-file-data/validate_FICO.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,33 +32,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generalized_groupby.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="380" column="20" selection-start-line="380" selection-start-column="20" selection-end-line="380" selection-end-column="20" />
+            <state relative-caret-position="-284">
+              <caret line="431" column="19" selection-start-line="431" selection-start-column="19" selection-end-line="431" selection-end-column="19" />
               <folding>
                 <element signature="e#151#613#1" />
                 <element signature="e#615#1010#1" />
                 <element signature="e#1075#1355#0" />
-                <element signature="e#1425#4339#0" />
                 <element signature="e#1425#1918#1" />
-                <element signature="e#1943#4067#0" />
-                <element signature="e#4392#4508#1" />
-                <element signature="e#4693#5752#0" />
-                <element signature="e#5811#6756#0" />
-                <element signature="e#6829#7220#0" />
-                <element signature="e#6827#8004#0" />
-                <element signature="e#7299#7473#1" />
-                <element signature="e#8525#9702#0" />
-                <element signature="e#8525#9339#1" />
-                <element signature="e#8062#8995#0" />
-                <element signature="e#8062#8581#1" />
-                <element signature="e#9061#9610#0" />
-                <element signature="e#9053#9986#0" />
-                <element signature="e#9053#9572#1" />
-                <element signature="e#10584#10981#0" />
-                <element signature="e#11036#11565#0" />
-                <element signature="e#11041#11155#1" />
-                <element signature="e#11630#12159#0" />
-                <element signature="e#9624#9789#0" />
               </folding>
             </state>
           </provider>
@@ -77,21 +70,21 @@
         <option value="$PROJECT_DIR$/get_loan_population.py" />
         <option value="$PROJECT_DIR$/merge_perf_acq.py" />
         <option value="$PROJECT_DIR$/drafting-dev/build_compound_files.py" />
-        <option value="$PROJECT_DIR$/build_compound_files.py" />
-        <option value="$PROJECT_DIR$/merge_perf_acq_comp_files.py" />
-        <option value="$PROJECT_DIR$/df_merge_tagging.py" />
         <option value="$PROJECT_DIR$/drafting-dev/df_vintage_group.py" />
         <option value="$PROJECT_DIR$/drafting-dev/python_to_pdf_drafting.py" />
         <option value="$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv1.py" />
         <option value="$PROJECT_DIR$/drafting-dev/data_visualization_from_hmwk.py" />
         <option value="$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv2.py" />
+        <option value="$PROJECT_DIR$/build_compound_files.py" />
+        <option value="$PROJECT_DIR$/merge_perf_acq_comp_files.py" />
+        <option value="$PROJECT_DIR$/df_merge_tagging.py" />
         <option value="$PROJECT_DIR$/generalized_groupby.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="25" />
+    <option name="x" value="47" />
+    <option name="y" value="50" />
     <option name="width" value="1184" />
     <option name="height" value="707" />
   </component>
@@ -100,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,12 +103,23 @@
             <path>
               <item name="ga_2019_final_project_start" type="b2602c69:ProjectViewProjectNode" />
               <item name="ga_2019_final_project_start" type="462c0819:PsiDirectoryNode" />
-              <item name="draft_groupby_data" type="462c0819:PsiDirectoryNode" />
+              <item name="draft_merge_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ga_2019_final_project_start" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ga_2019_final_project_start" type="462c0819:PsiDirectoryNode" />
+              <item name="draft_multi_file_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ga_2019_final_project_start" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ga_2019_final_project_start" type="462c0819:PsiDirectoryNode" />
+              <item name="draft_tagging_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -130,11 +133,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/draft_tagging_data" />
-      <recent name="$PROJECT_DIR$/draft_merge_data" />
-      <recent name="$PROJECT_DIR$/drafting-dev" />
-      <recent name="$PROJECT_DIR$/some-acqusition" />
+      <recent name="$PROJECT_DIR$/some-acqusition/2016-2017-file-data" />
+      <recent name="$PROJECT_DIR$/draft_tagging_data/2016-2017-file-results" />
+      <recent name="$PROJECT_DIR$/draft_multi_file_data/2016-2017-file-results" />
+      <recent name="$PROJECT_DIR$/draft_merge_data/2017-2016-file-results" />
+      <recent name="$PROJECT_DIR$/draft_groupby_data/2017-2016-file-results" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -150,6 +153,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.generalized_groupby">
+    <configuration name="build_compound_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ga_2019_final_project_start" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/build_compound_files.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="df_merge_tagging" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ga_2019_final_project_start" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,28 +211,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generalized_groupby.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="generalized_groupby_draftv1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ga_2019_final_project_start" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drafting-dev" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drafting-dev/generalized_groupby_draftv1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,10 +266,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.generalized_groupby" />
-        <item itemvalue="Python.generalized_groupby_draftv2" />
-        <item itemvalue="Python.generalized_groupby_draftv1" />
         <item itemvalue="Python.df_merge_tagging" />
         <item itemvalue="Python.merge_perf_acq_comp_files" />
+        <item itemvalue="Python.build_compound_files" />
+        <item itemvalue="Python.generalized_groupby_draftv2" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +285,8 @@
       <updated>1557613488666</updated>
       <workItem from="1557613490009" duration="1501000" />
       <workItem from="1557678966152" duration="24693000" />
-      <workItem from="1557761611012" duration="32709000" />
+      <workItem from="1557761611012" duration="43377000" />
+      <workItem from="1558006122186" duration="10599000" />
     </task>
     <task id="LOCAL-00001" summary="organizing files to match that of desktop original">
       <created>1557613735344</created>
@@ -368,11 +372,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557775892040</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="more runs with 200k records">
+      <created>1557799242250</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557799242250</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58903000" />
+    <option name="totallyTimeSpent" value="80170000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -384,12 +395,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="25" width="1184" height="707" extended-state="0" />
+    <frame x="47" y="50" width="1184" height="707" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25877193" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787235" visible="true" weight="0.2631579" />
+      <window_info id="Structure" order="1" sideWeight="0.50212765" side_tool="true" weight="0.25877193" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32952693" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4991228" visible="true" weight="0.23327896" />
@@ -397,17 +407,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952693" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32952693" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008772" side_tool="true" weight="0.23327896" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32952693" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32952693" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,39 +437,41 @@
     <MESSAGE value="creating merged data sets with 400k records, tagged them as well, next steps are for visualization" />
     <MESSAGE value="copying over more prior drafting work from homework - needs to be revised new merged data sets" />
     <MESSAGE value="further work on the generalized groupby" />
-    <option name="LAST_COMMIT_MESSAGE" value="further work on the generalized groupby" />
+    <MESSAGE value="more runs with 200k records" />
+    <MESSAGE value="perodic checkin" />
+    <option name="LAST_COMMIT_MESSAGE" value="perodic checkin" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ga_2019_final_project_start$initial_analysis_v1.coverage" NAME="initial_analysis_v1 Coverage Results" MODIFIED="1557680096994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ga_2019_final_project_start$generalized_groupby_draftv1.coverage" NAME="generalized_groupby_draftv1 Coverage Results" MODIFIED="1557780284891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drafting-dev" />
-    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$generalized_groupby.coverage" NAME="generalized_groupby Coverage Results" MODIFIED="1557796419199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$generalized_groupby.coverage" NAME="generalized_groupby Coverage Results" MODIFIED="1558089316168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ga_2019_final_project_start$generalized_groupby_draftv2.coverage" NAME="generalized_groupby_draftv2 Coverage Results" MODIFIED="1557783343436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drafting-dev" />
     <SUITE FILE_PATH="coverage/ga_2019_final_project_start$df_acq_tagging.coverage" NAME="df_acq_tagging Coverage Results" MODIFIED="1557614558158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ga_2019_final_project_start$get_loan_population.coverage" NAME="get_loan_population Coverage Results" MODIFIED="1557718735169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$merge_perf_acq_comp_files.coverage" NAME="merge_perf_acq_comp_files Coverage Results" MODIFIED="1557724419634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$build_compound_files.coverage" NAME="build_compound_files Coverage Results" MODIFIED="1557723670304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/drafting-dev" />
-    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$df_merge_tagging.coverage" NAME="df_merge_tagging Coverage Results" MODIFIED="1557763058063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$merge_perf_acq_comp_files.coverage" NAME="merge_perf_acq_comp_files Coverage Results" MODIFIED="1558058153610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$build_compound_files.coverage" NAME="build_compound_files Coverage Results" MODIFIED="1558058133534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ga_2019_final_project_start$df_merge_tagging.coverage" NAME="df_merge_tagging Coverage Results" MODIFIED="1558058197703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/some-acqusition/Acqusition_2017Q2.txt" />
     <entry file="file://$PROJECT_DIR$/../Performance_All/some-acquisition/Acquisition_2017Q2.txt">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/draft_merge_data/pre-PERF_FLAG.csv">
+    <entry file="file://$PROJECT_DIR$/draft_merge_data/2017-2016-file-results/pre-PERF_FLAG.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="52" column="15" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draft_merge_data/post-PERF_FLAG.csv">
+    <entry file="file://$PROJECT_DIR$/draft_merge_data/2017-2016-file-results/post-PERF_FLAG.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-192">
           <caret line="102" column="9" lean-forward="true" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draft_merge_data/other_data_set.csv">
+    <entry file="file://$PROJECT_DIR$/draft_merge_data/2017-2016-file-results/other_data_set.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-117">
           <caret line="101" selection-start-line="101" selection-end-line="101" />
@@ -467,15 +481,15 @@
     <entry file="file://$PROJECT_DIR$/some-performance/performance_file_headers.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/draft_merge_data/sample_acq_data.csv">
+    <entry file="file://$PROJECT_DIR$/draft_merge_data/2017-2016-file-results/sample_acq_data.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/draft_merge_data/sample_perf_acq_data.csv">
+    <entry file="file://$PROJECT_DIR$/draft_merge_data/2017-2016-file-results/sample_perf_acq_data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1199" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draft_merge_data/sample_perf_data.csv">
+    <entry file="file://$PROJECT_DIR$/draft_merge_data/2017-2016-file-results/sample_perf_data.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/drafting-dev/get_loan_population.py">
@@ -499,7 +513,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draft_tagging_data/Acquisition_Out.csv">
+    <entry file="file://$PROJECT_DIR$/draft_tagging_data/2016-2017-file-results/Acquisition_Out.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/df_acq_tagging.py">
@@ -514,13 +528,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draft_tagging_data/merge_data_tag_out.csv">
+    <entry file="file://$PROJECT_DIR$/draft_tagging_data/2016-2017-file-results/merge_data_tag_out.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draft_groupby_data/dev_groupby_sample.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14687" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/drafting-dev/df_vintage_group.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -567,16 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/merge_perf_acq_comp_files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/merge_perf_acq.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -610,37 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build_compound_files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="52" column="57" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df_merge_tagging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="130" column="28" lean-forward="true" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#184#2313#0" />
-            <element signature="e#2340#4493#0" />
-            <element signature="e#6846#7873#0" />
-            <element signature="e#8364#8673#0" />
-            <element signature="e#8736#8928#0" />
-            <element signature="e#8994#9113#0" />
-            <element signature="e#9160#9269#0" />
-            <element signature="e#9318#9430#0" />
-            <element signature="e#9524#9844#0" />
-            <element signature="e#9927#10166#0" />
-            <element signature="e#10282#10889#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drafting-dev/data_visualization_from_hmwk.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -658,35 +626,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/draft_groupby_data/2017-2016-file-results/dev_groupby_sample.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1427" selection-start-column="1415" selection-end-column="1427" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft_groupby_data/2017-2016-file-results/upb_bucket_150k.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft_groupby_data/2017-2016-file-results/vintage_bucket_lcmp.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_compound_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merge_perf_acq_comp_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df_merge_tagging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="281" column="59" selection-start-line="281" selection-start-column="59" selection-end-line="281" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#184#2313#0" />
+            <element signature="e#2340#4493#0" />
+            <element signature="e#4707#5823#0" />
+            <element signature="e#6846#7873#0" />
+            <element signature="e#8364#8673#0" />
+            <element signature="e#8736#8928#0" />
+            <element signature="e#8994#9113#0" />
+            <element signature="e#9160#9269#0" />
+            <element signature="e#9318#9430#0" />
+            <element signature="e#9524#9844#0" />
+            <element signature="e#9927#10166#0" />
+            <element signature="e#10282#10889#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generalized_groupby.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="380" column="20" selection-start-line="380" selection-start-column="20" selection-end-line="380" selection-end-column="20" />
+        <state relative-caret-position="-284">
+          <caret line="431" column="19" selection-start-line="431" selection-start-column="19" selection-end-line="431" selection-end-column="19" />
           <folding>
             <element signature="e#151#613#1" />
             <element signature="e#615#1010#1" />
             <element signature="e#1075#1355#0" />
-            <element signature="e#1425#4339#0" />
             <element signature="e#1425#1918#1" />
-            <element signature="e#1943#4067#0" />
-            <element signature="e#4392#4508#1" />
-            <element signature="e#4693#5752#0" />
-            <element signature="e#5811#6756#0" />
-            <element signature="e#6829#7220#0" />
-            <element signature="e#6827#8004#0" />
-            <element signature="e#7299#7473#1" />
-            <element signature="e#8525#9702#0" />
-            <element signature="e#8525#9339#1" />
-            <element signature="e#8062#8995#0" />
-            <element signature="e#8062#8581#1" />
-            <element signature="e#9061#9610#0" />
-            <element signature="e#9053#9986#0" />
-            <element signature="e#9053#9572#1" />
-            <element signature="e#10584#10981#0" />
-            <element signature="e#11036#11565#0" />
-            <element signature="e#11041#11155#1" />
-            <element signature="e#11630#12159#0" />
-            <element signature="e#9624#9789#0" />
           </folding>
         </state>
       </provider>

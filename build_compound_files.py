@@ -17,7 +17,7 @@ class GetDataMultiFile():
         # index = 'LOAN IDENTIFIER'
         # index_col = index
         #nrows =
-        df = pd.read_csv(fname, sep="|", header=None, names=headers, nrows=100000)
+        df = pd.read_csv(fname, sep="|", header=None, names=headers,nrows=100000)
         return df
 
 
@@ -30,7 +30,7 @@ class GetDataMultiFile():
         # index = 'LOAN IDENTIFIER'
         # index_col = index
         # nrows=1000
-        df = pd.read_csv(fname, sep='|', header=None, names=headers, nrows=100000)
+        df = pd.read_csv(fname, sep='|', header=None, names=headers,nrows=100000)
         return df
 
     def df_to_files(self, df_name, fname):
@@ -51,7 +51,7 @@ class ProcessFiles():
             print(df.head())
             dfs.append(df)
         df_all = pd.concat(dfs, axis=0, ignore_index=True)
-        name_all = '../draft_multi_file_data/acq_file_all.csv'
+        name_all = 'draft_multi_file_data/acq_file_02-03.csv'
         GetDataMultiFile.df_to_files(x, df_all, name_all)
         return df_all
 
@@ -67,7 +67,7 @@ class ProcessFiles():
             print(df.head())
             dfs.append(df)
         df_all = pd.concat(dfs, axis=0, ignore_index=True)
-        name_all = '../draft_multi_file_data/perf_file_all.csv'
+        name_all = 'draft_multi_file_data/perf_file_02-03.csv'
         GetDataMultiFile.df_to_files(x, df_all, name_all)
         return df_all
 

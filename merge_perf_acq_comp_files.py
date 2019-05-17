@@ -24,14 +24,14 @@ def main():
     # print(files)
     #get data
     y = GetData()
-    acq_in_file = 'draft_multi_file_data/acq_file_all.csv'
+    acq_in_file = 'draft_multi_file_data/acq_file_02-03.csv'
     a = GetData.get_acq_loans(y, acq_in_file)
     #source_acq = acq_in_file.replace('../draft_multi_file_data.','')
     #a['SOURCE_ACQ'] = source_acq
     print(a.head())
     print(a.shape)
     print(a.columns)
-    perf_in_file = 'draft_multi_file_data/perf_file_all.csv'
+    perf_in_file = 'draft_multi_file_data/perf_file_02-03.csv'
     b = GetData.get_perf_loans(y, perf_in_file)
     #source_perf = perf_in_file.replace('../Performance_All/some-performance/', '')
     #b['SOURCE_PERF'] = source_perf
@@ -45,7 +45,7 @@ def main():
     c = GetData.merge(y, b, a)
     print(c.shape)
     print(c.columns)
-    c.to_csv('draft_merge_data/perf_acq_data.csv')
+    c.to_csv('draft_merge_data/perf_acq_data_02-03.csv')
 
 
 if __name__ =='__main__':

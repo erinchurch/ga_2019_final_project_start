@@ -108,11 +108,16 @@ class CollectCompiledData():
                          'RELOCATION MORTGAGE INDICATOR', 'SOURCE_y'] #just an FYI for this specific merged file
 
 
-        df = pd.read_csv(fname, sep = ",", usecols=filter_cols, nrows=filter_rows)
-        print(df.head()) #developer check
-        print(df.shape) #develop check
+        df = pd.read_csv(fname, sep = ",", usecols=filter_cols, nrows=filter_rows,)
+        # print(df.head()) #developer check
+        # print(df.shape) #develop check
         #print(df.columns)  #developer check
-        return df
+        #df1 = df.reset_index()
+        drop = ['Unnamed: 0', 'Unnamed: 0.1', 'Unnamed: 0_x']
+        df2 = df.drop(drop, axis=1)
+        print(df2.head())
+        print(df2.shape)
+        return df2
 
     def df_to_files(self, df, fname):
         """
@@ -205,6 +210,7 @@ class GroupBySummary():
         # print(df3)
         return df3
 
+
     def wa_group(self, df, wa_field, wa_result, weight, by_field):
         """
         original value for the weight_field was 'ORIGINAL UPB',
@@ -229,13 +235,41 @@ class GroupBySummary():
         cols.remove(weight)
         df1 = df.drop(cols, axis=1)  # get rid of all other columns you don't need, import for speed
         # print("in wa group", df1.head())
-        df1[wa_result] = [(df1.loc[i, wa_field] * df1.loc[i, weight]).sum() / df1[weight].sum() for i in range(len(df1[wa_field]))]
+        df1[wa_result] = [(df1.loc[i, wa_field] * df1.loc[i, weight]) / df1.loc[i, weight] for i in range(len(df1[wa_field]))]
         # df1.loc[wa_result] = [(df1[i, wa_field] * df[weight]).sum() / df[weight].sum() for i in range(len(df1))]
         df2 = df1.drop(wa_field, axis=1)  # get rid of all other columns you don't need, import for speed
-        df3 = df2.groupby(by_field)
-        return df3.mean()
+        df3 = df2.drop(weight, axis=1)
+        df4 = df3.groupby(by_field)
+        return df4.sum()
 
-    def wa_group_loop(self, df, wa_list, weight_field, by_field):
+    def wa_iterate_loop(self, df, wa_list, weight, by_field):
+        y = GroupBySummary()
+        df1 = df
+        # print("in wa_iterate",df1.head())
+        dfs = []
+        print(weight)
+        print(by_field)
+        # wa_result = wa_list[0]
+        # print("wa_results", wa_result)
+        # df1[wa_result] = 0
+        # wa_field = wa_list[1]
+        # print("wa_field", wa_field)
+        # df2 = GroupBySummary.wa_group(y, df1, wa_field, wa_result, weight, by_field)
+        # dfs.append(df2)
+        for l in wa_list:
+            print(l)
+            wa_result = l[0]
+            print("wa_results",wa_result)
+            df1[wa_result] = 0
+            wa_field = l[1]
+            print("wa_field", wa_field)
+            df2 = GroupBySummary.wa_group_loop(y, df1, wa_field, wa_result, weight, by_field)
+            dfs.append(df2)
+        df3 = pd.concat(dfs, axis=1, ignore_index=False, sort=True)
+        # print(df3)
+        return df3
+
+    def wa_group_loop(self, df, wa_field, wa_result, weight, by_field):
         """
         original value for the weight_field was 'ORIGINAL UPB',
         the field by which the other fields are weighted for the average,
@@ -250,14 +284,20 @@ class GroupBySummary():
         :param by_field:
         :return:
         """
+        print(df.head())
+        for i in range(len(df[wa_field])):
+            # print(i)
+            # print(df.loc[i, weight])
+            df.loc[i, wa_result] = (df.loc[i, wa_field] * df.loc[i, weight]) / df.loc[i, weight]
         cols = df.columns.tolist()
         cols.remove(by_field)
-        for l in wa_list:
-            for i in range(len(df)):
-                #print(l)
-                df.loc[i, l[0]] = round((df.loc[i,l[1]] * df[weight_field]).sum() / df[weight_field].sum(), 0)
+        cols.remove(wa_result)
+        # cols.remove(wa_field)
+        # cols.remove(weight)
         df1 = df.drop(cols, axis=1)
+        print(df1.columns)
         df2 = df1.groupby(by_field)
+        print(df2)
         return df2.mean()
 
     def sum_group_loop(self, df, sum_list,by_field):
@@ -376,14 +416,22 @@ class GroupBySummary():
 def main():
     x = CollectCompiledData()
     y = GroupBySummary()
-    fname = 'draft_tagging_data/merge_data_tag_out.csv'
+    fname = 'draft_tagging_data/merge_data_tag_out_06-07.csv'
     filter_cols = None
-    filter_rows = 200000
+    filter_rows = None
     a = CollectCompiledData.files_to_df(x, fname, filter_cols, filter_rows)
+    # fname = ('draft_groupby_data/vintage_bucket_input.csv')
+    # h = CollectCompiledData.df_to_files(y, a, fname)
+    # print(a['ORIGINAL UPB'])
     # vintage_dict= {'by_field': 'UPB_BUCKET', 'wa_field': 'ORIGINAL UPB', 'wa_list': [['Int Rate WA', 'ORIGINAL INTEREST RATE'], ['BRW FICO WA', 'BORROWER CREDIT SCORE AT ORIGINATION'], ['CO BRW FICO WA', 'CO-BORROWER CREDIT SCORE AT ORIGINATION'], ['LTV WA', 'ORIGINAL LOAN-TO-VALUE (LTV)'], ['CLTV WA', 'ORIGINAL COMBINED LOAN-TO-VALUE (CLTV)'], ['DTI WA', 'ORIGINAL DEBT TO INCOME RATIO']], 'sum_list': [['Total_UPB', 'ORIGINAL UPB'], ['Total_Loan_Count', 'LOAN_COUNT']], 'avg_list': [['Avg UPB', 'ORIGINAL UPB']], 'report_name':'vintage_summary'}
     # b = GroupBySummary.generate_summmary(y, a, vintage_dict)
     sum_list = [['Total_UPB', 'ORIGINAL UPB'], ['Total_Loan_Count', 'LOAN_COUNT']]
-    by_field = 'UPB_BUCKET'
+    #TERM_BUCKET
+    #VINTAGE
+    #UPB_BUCKET
+    #PROPERTY STATE
+    #'MONTHLY REPORTING PERIOD'
+    by_field = 'TERM_BUCKET'
     b = GroupBySummary.sum_iterate(y, a, sum_list, by_field)
     avg_list = [['Avg UPB', 'ORIGINAL UPB']]
     c = GroupBySummary.avg_iterate(y, a, avg_list, by_field)
@@ -393,12 +441,23 @@ def main():
                ['CO BRW FICO WA', 'CO-BORROWER CREDIT SCORE AT ORIGINATION'],
                ['LTV WA', 'ORIGINAL LOAN-TO-VALUE (LTV)'],
                ['CLTV WA', 'ORIGINAL COMBINED LOAN-TO-VALUE (CLTV)'], ['DTI WA', 'ORIGINAL DEBT TO INCOME RATIO']]
-    d = GroupBySummary.wa_iterate(y, a, wa_list, weight, by_field)
-    print("from main\n", d)
-    e = pd.concat([b, c, d], axis=1, ignore_index=False, sort=True)
+    # d = GroupBySummary.wa_iterate(y, a, wa_list, weight, by_field)
+    # print("from main\n", d)
+    e = GroupBySummary.wa_iterate_loop(y, a, wa_list, weight, by_field)
     print('from main\n', e)
-    fname = ('draft_groupby_data/upb_bucket.csv')
-    f = CollectCompiledData.df_to_files(y, e, fname)
+    # f = pd.concat([b, c, d], axis=1, ignore_index=False, sort=True)
+    g = pd.concat([b, c, e], axis=1, ignore_index=False, sort=True)
+    # fnamef = ('draft_groupby_data/vintage_bucket_lcmp.csv')
+    fnameg = ('draft_groupby_data/term_bucket_06-07.csv')
+    #'draft_groupby_data/reporting_period_bucket_06-07.csv'
+    #'draft_groupby_data/term_bucket_06-07.csv'
+    #draft_groupby_data/vintage_bucket_06-07.csv
+    #draft_groupby_data/upb_bucket_06-07.csv
+    # h = CollectCompiledData.df_to_files(y, f, fnamef)
+    j = CollectCompiledData.df_to_files(y, g, fnameg)
+    # fnamek = ('draft_groupby_data/vintage_bucket_results.csv')
+    # k = CollectCompiledData.files_to_df(x, h)
+
 
 
 

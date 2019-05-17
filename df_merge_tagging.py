@@ -208,7 +208,7 @@ def main():
 
     #in_file = 'draft_merge_data/sample_perf_acq_data.csv' #if needed from testing
 
-    in_file = 'draft_merge_data/perf_acq_data.csv'
+    in_file = 'draft_merge_data/perf_acq_data_02-03.csv'
     a = GetData.get_merge_loans(y, in_file)
     print(a.head())
     print(a.shape)
@@ -279,7 +279,7 @@ def main():
 
 
     #write output file
-    out_file = 'draft_tagging_data/merge_data_tag_out.csv'
+    out_file = 'draft_tagging_data/merge_data_tag_out_02-03.csv'
     i = GetData.write_results(y, h, out_file)
 
 
