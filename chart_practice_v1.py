@@ -1,5 +1,6 @@
 import pandas as pd
 import plotly
+import plotly.plotly as py
 from plotly.offline import iplot, init_notebook_mode
 import plotly.graph_objs as go
 import plotly.io as pio
@@ -35,7 +36,7 @@ def bubble_chart(df, x, y, fname):
     pio.write_image(fig, path3)
     return
 
-def table(df, x, y, z, fname):
+def table_vintage(df, x, y, z, fname):
     drop = df.columns.tolist()
     drop.remove(x) #reporting field, first column of table, numeric or non numeric
     drop.remove(y) #second table field
@@ -47,21 +48,22 @@ def table(df, x, y, z, fname):
         header=dict(values=list(df2.columns),
                     fill=dict(color='#C2D4FF'),
                     align=['left'] * 5),
-        cells=dict(values=[df2.x, df2.y, df2.z],
+        cells=dict(values=[df2.VINTAGE_YEAR, df2.Total_UPB, df2.Total_Loan_Count],
                    fill=dict(color='#F5F8FF'),
                    align=['left'] * 5))
-
+    layout = dict(width=900, height=600)
     data = [trace]
-    # py.iplot(data, filename='pandas_table')
+    fig = dict(data=data, layout=layout)
+    py.iplot(fig, filename='styled_table')
     path1 = 'images/' + fname + '.jpg'
     print(path1)
     path2 = 'images/' + fname + '.pdf'
     print(path2)
     path3 = 'images/' + fname + '.png'
     print(path3)
-    pio.write_image(data, path1)
-    pio.write_image(data, path2)
-    pio.write_image(data, path3)
+    pio.write_image(fig, path1)
+    pio.write_image(fig, path2)
+    pio.write_image(fig, path3)
     return
 
 def multi_line_scatter_chart(df, x, y0, y1, y2, y0_title, y1_title, y2_title, fname):
@@ -197,7 +199,7 @@ def vintage_chart():
         dfs.append(df)
     df_all = pd.concat(dfs, axis=0, ignore_index=True)
     # multi_line_scatter_chart(df_all, 'VINTAGE_YEAR','Total_UPB','Avg UPB','Total_Loan_Count', 'Total Balance ($BB)','Avg Balance ($k)','Total Loan Count (k)',"vintage-upb-lncount")
-    table(df_all, 'VINTAGE_YEAR', 'Total_UPB', 'Total_Loan_Count', "vintage-table")
+    table_vintage(df_all, 'VINTAGE_YEAR', 'Total_UPB', 'Total_Loan_Count', "vintage-table")
 
 def main():
     plotly.tools.set_credentials_file(username='erinchurch6', api_key='fXwAuCrzutNF2zWbXAj1')
