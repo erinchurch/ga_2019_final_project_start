@@ -416,7 +416,7 @@ class GroupBySummary():
 def main():
     x = CollectCompiledData()
     y = GroupBySummary()
-    fname = 'draft_tagging_data/merge_data_tag_out_06-07.csv'
+    fname = 'draft_tagging_data/merge_data_tag_out_02-03.csv'
     filter_cols = None
     filter_rows = None
     a = CollectCompiledData.files_to_df(x, fname, filter_cols, filter_rows)
@@ -427,20 +427,17 @@ def main():
     # b = GroupBySummary.generate_summmary(y, a, vintage_dict)
     sum_list = [['Total_UPB', 'ORIGINAL UPB'], ['Total_Loan_Count', 'LOAN_COUNT']]
     #TERM_BUCKET
-    #VINTAGE
+    #VINTAGE_YEAR
     #UPB_BUCKET
     #PROPERTY STATE
     #'MONTHLY REPORTING PERIOD'
-    by_field = 'TERM_BUCKET'
+    by_field = 'VINTAGE_YEAR'
     b = GroupBySummary.sum_iterate(y, a, sum_list, by_field)
     avg_list = [['Avg UPB', 'ORIGINAL UPB']]
     c = GroupBySummary.avg_iterate(y, a, avg_list, by_field)
     weight = 'ORIGINAL UPB'
     wa_list1 = ['Int Rate WA', 'ORIGINAL INTEREST RATE']
-    wa_list = [['Int Rate WA', 'ORIGINAL INTEREST RATE'], ['BRW FICO WA', 'BORROWER CREDIT SCORE AT ORIGINATION'],
-               ['CO BRW FICO WA', 'CO-BORROWER CREDIT SCORE AT ORIGINATION'],
-               ['LTV WA', 'ORIGINAL LOAN-TO-VALUE (LTV)'],
-               ['CLTV WA', 'ORIGINAL COMBINED LOAN-TO-VALUE (CLTV)'], ['DTI WA', 'ORIGINAL DEBT TO INCOME RATIO']]
+    wa_list = [['Int Rate WA', 'ORIGINAL INTEREST RATE'], ['BRW FICO WA', 'BORROWER CREDIT SCORE AT ORIGINATION'],['CO BRW FICO WA', 'CO-BORROWER CREDIT SCORE AT ORIGINATION'], ['LTV WA', 'ORIGINAL LOAN-TO-VALUE (LTV)'], ['CLTV WA', 'ORIGINAL COMBINED LOAN-TO-VALUE (CLTV)'], ['DTI WA', 'ORIGINAL DEBT TO INCOME RATIO']]
     # d = GroupBySummary.wa_iterate(y, a, wa_list, weight, by_field)
     # print("from main\n", d)
     e = GroupBySummary.wa_iterate_loop(y, a, wa_list, weight, by_field)
@@ -448,7 +445,7 @@ def main():
     # f = pd.concat([b, c, d], axis=1, ignore_index=False, sort=True)
     g = pd.concat([b, c, e], axis=1, ignore_index=False, sort=True)
     # fnamef = ('draft_groupby_data/vintage_bucket_lcmp.csv')
-    fnameg = ('draft_groupby_data/term_bucket_06-07.csv')
+    fnameg = ('draft_groupby_data/vintage_bucket_02-03.csv')
     #'draft_groupby_data/reporting_period_bucket_06-07.csv'
     #'draft_groupby_data/term_bucket_06-07.csv'
     #draft_groupby_data/vintage_bucket_06-07.csv
